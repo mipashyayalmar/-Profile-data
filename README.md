@@ -2,7 +2,7 @@
 
 
 ##  Professional Journey Link
-[🌐 View More Designs on My Portfolio](https://mipashyayalmar.github.io/-Profile-data/)
+[🌐 You're welcome to view my portfolio ⮕.](https://mipashyayalmar.github.io/-Profile-data/)
 
 
 
