@@ -8,7 +8,7 @@ Description of the project. This project involved creating a website for a clien
 - [E-Commerce](#)
 
 ## Repository Link
-[GitHub Repository]([https://github.com/yourusername/project-title](https://mipashyayalmar.github.io/-Profile-data/))
+[GitHub Repository](https://github.com/yourusername/project-title](https://mipashyayalmar.github.io/-Profile-data/)
 
 ##  Professional Journey Links:-
 [View More Designs on My Portfolio](https://mipashyayalmar.github.io/-Profile-data/)
