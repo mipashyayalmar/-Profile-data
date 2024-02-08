@@ -1,13 +1,13 @@
-# "Exploring [Prasad Ganesh Yalmar] Professional Journey: "
+# "Exploring [Prasad Ganesh Yalmar] Professional Journey 🡇 "
 
 
-##  Professional Journey Link
-[🌐 You're welcome to view my portfolio ⮕.](https://mipashyayalmar.github.io/-Profile-data/)
+##  Professional Journey Link ▼
+[🌐 You're welcome to view my portfolio⮕](https://mipashyayalmar.github.io/-Profile-data/)
 
 
 
 ## Repository Link
-[GitHub Repository](https://github.com/yourusername/project-title](https://mipashyayalmar.github.io/-Profile-data/)
+[GitHub Repository](https://github.com/mipashyayalmar)
 
 
 ## Tags
