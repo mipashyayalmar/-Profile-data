@@ -38,7 +38,7 @@ Feel free to explore and connect with me!
 - [Web Design](#)
 - [Fashion](#)
 - [E-Commerce](#)
-- [Wedding](#)
+- [Wedding](https://github.com/mipashyayalmar/pashya/blob/main/README.md)
 - [Alexa](#)
 - [Data Analysis](#)
 - [E-Notes System](#)
