@@ -2,11 +2,7 @@
 
 
 ##  Professional Journey Link
-[View More Designs on My Portfolio](https://mipashyayalmar.github.io/-Profile-data/)
-
-
-
-[🌐 Web Development](https://example.com)
+[🌐 View More Designs on My Portfolio](https://mipashyayalmar.github.io/-Profile-data/)
 
 
 
