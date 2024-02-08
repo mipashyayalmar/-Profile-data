@@ -19,7 +19,7 @@ Features:
 Purpose:
 To present a cohesive overview of my qualifications, experiences, and capabilities in a visually appealing and easily navigable format, fostering effective communication and engagement.
 
-Github Repository Link: [Your Github Repository Link]
+[Mine GitHub Repository](https://github.com/mipashyayalmar)
 
 Feel free to explore and connect with me!
 
@@ -28,13 +28,10 @@ Feel free to explore and connect with me!
 
 
 
-##  Professional Journey Link 
+## Direct Professional Journey Link 
 [🌐 You're welcome to view my portfolio⮕](https://mipashyayalmar.github.io/-Profile-data/)
 
 
-
-## Other Repository Link
-[GitHub Repository](https://github.com/mipashyayalmar)
 
 
 ## My Other Projects:-
