@@ -1,4 +1,4 @@
-# Project Title
+# "Exploring [Prasad Ganesh Yalmar] Professional Journey: "
 
 Description of the project. This project involved creating a website for a client in the fashion industry.
 
