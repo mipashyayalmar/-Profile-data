@@ -2,7 +2,7 @@
 
 
 
-[Personal Portfolio](https://mipashyayalmar.github.io/-Profile-data/): Showcase Your Education, Skills, and Profile
+[Personal Portfolio](https://mipashyayalmar.github.io/-Profile-data/): Showcase Of My Education, Skills, and Differents Profiles
 
 Description:
 Welcome to my personal portfolio! Here, I provide comprehensive details about my education, skills, profiles, portfolio, contact information, and documents. With clear explanations and captivating graphics, I aim to facilitate easy understanding of my educational background and professional expertise. Leveraging my knowledge in website designing, this repository offers a seamless experience to identify and connect with me effortlessly.
@@ -19,7 +19,7 @@ Features:
 Purpose:
 To present a cohesive overview of my qualifications, experiences, and capabilities in a visually appealing and easily navigable format, fostering effective communication and engagement.
 
-Github Repository Link: [Your Github Repository Link]
+[Mine GitHub Repository](https://github.com/mipashyayalmar)
 
 Feel free to explore and connect with me!
 
@@ -28,13 +28,10 @@ Feel free to explore and connect with me!
 
 
 
-##  Professional Journey Link 
+##  Directly Professional Journey Link to check it:
 [🌐 You're welcome to view my portfolio⮕](https://mipashyayalmar.github.io/-Profile-data/)
 
 
-
-## Other Repository Link
-[GitHub Repository](https://github.com/mipashyayalmar)
 
 
 ## My Other Projects:-
