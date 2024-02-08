@@ -34,7 +34,7 @@ Feel free to explore and connect with me!
 
 
 
-## My Other Projects:-
+## My Other Projects On Github:-
 - [Web Design](#)
 - [Fashion](#)
 - [E-Commerce](#)
