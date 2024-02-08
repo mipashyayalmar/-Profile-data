@@ -10,7 +10,7 @@ Description of the project. This project involved creating a website for a clien
 ## Repository Link
 [GitHub Repository](https://github.com/yourusername/project-title](https://mipashyayalmar.github.io/-Profile-data/)
 
-##  Professional Journey Links:-
+##  Professional Journey Link
 [View More Designs on My Portfolio](https://mipashyayalmar.github.io/-Profile-data/)
 
 [![YouTube Icon](URL_OF_YOUTUBE_ICON)](URL_OF_YOUTUBE_VIDEO)
