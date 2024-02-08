@@ -13,5 +13,9 @@ Description of the project. This project involved creating a website for a clien
 ##  Professional Journey Link
 [View More Designs on My Portfolio](https://mipashyayalmar.github.io/-Profile-data/)
 
+[![Person Icon](URL_OF_PERSON_ICON)](URL_OF_PERSON_PROFILE)
+[View My Profile](URL_OF_PERSON_PROFILE)
+
+
 [![YouTube Icon](URL_OF_YOUTUBE_ICON)](URL_OF_YOUTUBE_VIDEO)
 [Watch YouTube Video](URL_OF_YOUTUBE_VIDEO)
