@@ -1,4 +1,4 @@
-# "Exploring [Prasad Ganesh Yalmar] Professional Journey 🡇 "
+![image](https://github.com/mipashyayalmar/-Profile-data/assets/152699596/7fe6f5d4-3b5c-4a01-8ed2-131492539b9c)# "Exploring [Prasad Ganesh Yalmar] Professional Journey 🡇 "
 
 
 
@@ -44,3 +44,19 @@ Feel free to explore and connect with me!
 - [E-Notes System](#)
 - [Feedback collecting](#)
 - 
+
+
+## SCRENSHOTS
+
+<div style="width: 60px; height: 60px;">
+    <img src="https://github.com/mipashyayalmar/-Profile-data/assets/152699596/7dd08ab2-2b5d-4e5e-ace1-6c38c7a85097" alt="Screenshot 1">
+</div>
+
+<div style="width: 60px; height: 60px;">
+    <img src="https://github.com/mipashyayalmar/-Profile-data/assets/152699596/89d54f0d-5457-4c4f-8057-7f6d764b65c4" alt="Screenshot 2">
+</div>
+
+<div style="width: 60px; height: 60px;">
+    <img src="https://github.com/mipashyayalmar/-Profile-data/assets/152699596/acbdbe69-b10a-4e3f-89f1-22e5b6bb3243" alt="Screenshot 3">
+</div>
+
