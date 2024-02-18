@@ -1,5 +1,3 @@
-![image](https://github.com/mipashyayalmar/-Profile-data/assets/152699596/7fe6f5d4-3b5c-4a01-8ed2-131492539b9c)# "Exploring [Prasad Ganesh Yalmar] Professional Journey 🡇 "
-
 
 
 [Personal Portfolio](https://mipashyayalmar.github.io/-Profile-data/): Showcase Of My Education, Skills, and Differents Profiles
