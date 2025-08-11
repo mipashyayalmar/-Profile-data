@@ -1,0 +1,192 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yalmar Prasad Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header p a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .header p a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .skills-expertise p {
+            line-height: 1.6;
+            word-spacing: 5px;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .company {
+            font-style: italic;
+            color: #555;
+        }
+        .date {
+            color: #777;
+        }
+        @media print {
+            body {
+                background-color: white;
+            }
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1>YALMAR PRASAD</h1>
+            <p>Full Stack Developer (Python/Django)</p>
+            <p>
+                <a href="mailto:yalmarprasad123@gmail.com">yalmarprasad123@gmail.com</a> | 
+                7666353945 | 
+                <a href="https://yalmarprasad.com" target="_blank">Profile</a> | 
+                <a href="https://linkedin.com/in/yalmarprasad" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/yalmarprasad" target="_blank">GitHub</a>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Career Summary</h2>
+            <p>I'm a Full Stack developer specializing in Python/Django, capable of crafting actual systems such as College ERP, Hotel Management, and solutions to real-world problems. A skilled problem solver that develops scalable web applications with clean UI and strong backend logic. A continuous learner delving into AI/ML while still focusing on modern web stacks. Accountable developer who is team-oriented and appreciates teamwork, building meaningful digital experiences together.</p>
+        </div>
+
+        <div class="section skills-expertise">
+            <h2>Skills and Expertise</h2>
+            <p>Full stack web development | Database design (MySQL/SQLite) | Responsive UI/UX | Version control (Git/GitHub) | PythonAnywhere deployment | ERP system architecture | Role-based access control | College management systems | Hotel billing solutions | Real-time data processing | Machine learning applications | Marketing automation | SEO optimization | Project management | Agile methodology | Team leadership | Analytical problem solving | HTML | CSS | Python | Django | MySQL | SQLite | Bootstrap | VS Code | CMS management | AI/ML | HTML5 | Digital business card development | QR code integration | Analytics integration</p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <div class="job">
+                <div class="job-title">Full Stack Developer (Python/Django)</div>
+                <div class="company"><a href="https://pandharpurguidefirst.pythonanywhere.com/">PANDHARPURGUIDE</a> | <a href="https://ilitecode.com/">LiteCode Software Pvt. Ltd., Pune, MH</a><div>
+                <div class="date">Dec 2024 – Present</div>
+                <ul>
+                    <li>Designed and implemented the role-based authentication system: Developed five different authentication modules for clients, staff, employees, maintainers, and admins to provide streamlined access and strengthen platform security.</li>
+                    <li>Developed booking and management features: Enabled users to book rooms and hotels, allowing staff to manage listings and view bookings analytics while allowing employees to track daily and gate bookings, cutting operational inefficiencies by 30%.</li>
+                    <li>Maintainer and admin management: Maintainers are assigned to inspect and assign hotels, and admins were empowered to handle user permissions, passwords, and Google Ads integration to lessen administrative errors by 25%.</li>
+                    <li>Led the defining of the projects and coordination of tasks: Oversaw two frontend developers and two Git/GitHub contributors, ensuring timely project delivery and consistent integration of all components.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <div class="job-title"><a href="https://prasad52114.pythonanywhere.com/login">College ERP</a></div>
+                <div class="company"><a href="https://karmayogicollege.ac.in/About-Us">KIT College, Shelve, MH</a></div>
+                <div class="date">May 2024 – Jan 2025</div>
+                <ul>
+                    <li>Developed ERP solution for KIT College, catering to the needs of college owners, principals, vice-principals, HODs, and other stakeholders, with role-based access for students, staff, class coordinators (CC), HODs, principals, and admins.</li>
+                    <li>Implemented role-based access control for diverse users: Created authentication modules for students, staff, CCs, HODs, principals, and admins, ensuring precise authority allocation and enhancing system security.</li>
+                    <li>Developed student and staff management features: Enabled students to view marks, staff to manage departmental student data, marks, and attendance, and CCs to assign roll numbers and track attendance, improving data accuracy by 20%.</li>
+                    <li>Streamlined departmental and institutional oversight: Empowered HODs to handle CA1/CA2 marks, attendance, and staff leaves, and principals to access comprehensive student data and admission histories, reducing administrative processing time by 15%.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <div class="job-title"><a href="https://trupti123.pythonanywhere.com/">Business Card Generator</a></div>
+                <div class="company"><a href="https://websenz.in/">WebSenz Technology, Pune, MH</a></div>
+                <div class="date">Jan 2024 – May 2024</div>
+                <ul>
+                    <li>Developed smart digital business cards with dynamic templates, multimedia integration, and QR sharing using Django/HTML5, cutting printing costs by 80%.</li>
+                    <li>Added analytics and one-click sharing for enhanced networking.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="job">
+                <div class="job-title">Bachelor’s Degree in Computer Science and Engineering</div>
+                <div class="company">Karmayogi Institute of Technology, Pandharpur, MH</div>
+                <div class="date">2022/2023 – Present</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Diploma in Engineering (Electrical Engineering)</div>
+                <div class="company">Shri Vithal Education & Research Institute, Pandharpur, MH</div>
+                <div class="date">2017/2018 – 2020/2021</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
